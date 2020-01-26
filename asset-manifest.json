@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/my-app/static/css/main.e2a52fe5.chunk.css",
+    "main.js": "/my-app/static/js/main.1d666a49.chunk.js",
+    "main.js.map": "/my-app/static/js/main.1d666a49.chunk.js.map",
+    "runtime-main.js": "/my-app/static/js/runtime-main.47b76b19.js",
+    "runtime-main.js.map": "/my-app/static/js/runtime-main.47b76b19.js.map",
+    "static/css/2.eb45ad44.chunk.css": "/my-app/static/css/2.eb45ad44.chunk.css",
+    "static/js/2.018c6c94.chunk.js": "/my-app/static/js/2.018c6c94.chunk.js",
+    "static/js/2.018c6c94.chunk.js.map": "/my-app/static/js/2.018c6c94.chunk.js.map",
+    "index.html": "/my-app/index.html",
+    "precache-manifest.7fede30f870a0e68a8999f7c8ace6010.js": "/my-app/precache-manifest.7fede30f870a0e68a8999f7c8ace6010.js",
+    "service-worker.js": "/my-app/service-worker.js",
+    "static/css/2.eb45ad44.chunk.css.map": "/my-app/static/css/2.eb45ad44.chunk.css.map",
+    "static/css/main.e2a52fe5.chunk.css.map": "/my-app/static/css/main.e2a52fe5.chunk.css.map",
+    "static/js/2.018c6c94.chunk.js.LICENSE": "/my-app/static/js/2.018c6c94.chunk.js.LICENSE",
+    "static/media/App.css": "/my-app/static/media/UEFASupercup-Bold.feac02aa.woff"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.47b76b19.js",
+    "static/css/2.eb45ad44.chunk.css",
+    "static/js/2.018c6c94.chunk.js",
+    "static/css/main.e2a52fe5.chunk.css",
+    "static/js/main.1d666a49.chunk.js"
+  ]
+}
