@@ -1,7 +1,7 @@
 import React from 'react';
-import { Card } from '../Card/card.component';
+import { Card } from '../';
 
-const CardList = ({ players }) => {
+export const CardList = ({ players }) => {
   return (
     <>
     {
@@ -17,5 +17,3 @@ const CardList = ({ players }) => {
     </>
   );
 };
-
-export default CardList;

@@ -1,6 +1,6 @@
 import React from 'react';
 import { Grid } from 'semantic-ui-react';
-import CardList from '../Card-List/card-list.component';
+import { CardList } from '../card-list/card-list.component';
 
 export const CardGrid = ({ players }) => {
 

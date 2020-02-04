@@ -1,13 +1,18 @@
 import React from 'react';
+import { withRouter } from 'react-router-dom';
+import './card.styles.scss';
 
-export const Card = ({ name, position, number, imageUrl }) => {
+
+const Card = ({ id, name, position, number, imageUrl, history, match }) => {
   return ( 
-    <div className='tc dib br3 pa3 ma2 grow bw2 shadow-5'>
+    <div
+      className='card' 
+      onClick={() => history.push(`${match.url}/player${id}`)}
+    >
       <img
+        className='background-image'
         src={imageUrl}
         alt='football player'
-        height="200px"
-        width="350px"
       />
       <>
         <h2>{name}</h2>
@@ -17,3 +22,5 @@ export const Card = ({ name, position, number, imageUrl }) => {
     </div>
   );
 };
+
+export default withRouter(Card);
