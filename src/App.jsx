@@ -1,20 +1,33 @@
 import React, { Component } from 'react';
 import { Switch, Route } from 'react-router-dom';
-import { HomePage, Players, PlayerInformation, ShopPage } from './pages';
+import { HomePage, Players, Player, ShopPage } from './pages';
 import { Header } from "./components";
 import './App.css';
 
 class App extends Component {
+  constructor() {
+    super();
 
+    this.state = {
+     // user: {
+        //name: 'nick'
+     // },
+      user: null
+    }
+  }
   render () {
     return (
       <div className='app'>
         <Header />
         <Switch>
-          <Route exact path='/' component={HomePage} />
+          {
+            (!this.state.user) ?
+            (<Route exact path='/' component={HomePage} />) :
+            (<Route exact path='/' component={Players} />)
+          }
           <Route exact path='/players' component={Players} />
           <Route path='/shop' component={ShopPage} />
-          <Route path='/players/playerid' component={PlayerInformation} />
+          <Route path='/players/:playerId' component={Player} />
         </Switch>
       </div>
     )

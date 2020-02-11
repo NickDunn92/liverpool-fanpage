@@ -7,7 +7,7 @@ const Card = ({ id, name, position, number, imageUrl, history, match }) => {
   return ( 
     <div
       className='card' 
-      onClick={() => history.push(`${match.url}/player${id}`)}
+      onClick={() => history.push(`${match.url}/${id}`)}
     >
       <img
         className='background-image'
