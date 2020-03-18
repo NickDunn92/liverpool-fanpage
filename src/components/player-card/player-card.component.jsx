@@ -1,6 +1,6 @@
 import React from 'react';
 import { withRouter } from 'react-router-dom';
-import './card.styles.scss';
+import './player-card.styles.scss';
 
 
 const Card = ({ id, name, position, number, imageUrl, history, match }) => {

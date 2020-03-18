@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Switch, Route } from 'react-router-dom';
-import { HomePage, Players, Player, ShopPage } from './pages';
+import { HomePage, Players, Player } from './pages';
 import { Header } from "./components";
 import './App.css';
 
@@ -26,7 +26,6 @@ class App extends Component {
             (<Route exact path='/' component={Players} />)
           }
           <Route exact path='/players' component={Players} />
-          <Route path='/shop' component={ShopPage} />
           <Route path='/players/:playerId' component={Player} />
         </Switch>
       </div>

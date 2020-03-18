@@ -13,9 +13,6 @@ export const Header = () => {
       <Link className='option' to='/players'>
         Players
       </Link>
-      <Link className='option' to='/shop'>
-        Shop
-      </Link>
     </div>
   </div>
   )

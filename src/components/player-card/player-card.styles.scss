@@ -1,15 +1,16 @@
 .card {
-  text-align: center;
   border-radius: 25px;
   padding: 3px;
   margin: 2px;
   box-shadow: 5px;
   overflow: hidden;
   background-color: #c73131;
+  width: 25%;
 
   img {
     height: 200px;
     width: 350px;
+    padding-top: 20px;
 
     &:hover {
       cursor: pointer;
